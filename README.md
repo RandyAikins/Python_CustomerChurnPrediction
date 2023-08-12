@@ -25,7 +25,7 @@ Necessary Python libraries are imported for data analysis, visualization, data p
 
 ### 2.2 Dataset Import and Dictionary
 
-![](https://github.com/RandyAikins/Python_CustomerChurnPrediction/assets/128720674/f180a8f4-d529-4057-83d3-fb93fd0c7ee0)
+![](https://github.com/RandyAikins/Python_CustomerChurnPrediction/assets/128720674/35514978-5b6c-488b-9fca-0ab11921d4b2)
 
 - CustomerID: A unique identifier assigned to each telecom customer, enabling tracking and identification of individual customers. 
 - Gender: The gender of the customer, which can be categorized as male, or female. This information helps in analyzing gender-based trends in customer churn. 
