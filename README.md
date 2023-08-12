@@ -150,7 +150,7 @@ In this Project, I set out to understand the customer churn challenge of ConnecT
 ### 5.3 Retention Initiatives
 1. More customers should be tied to longer-term contracts.
 2. Customers should be incentivized to use automatic payment methods of bank transfer and credit card.
-3. Some packages should be developed along with customer demography to boost retention in SeniorCitizens, No Partner, and No Dependents customers.
+3. Some packages should be developed along customer demography to boost retention in SeniorCitizens, No Partner, and No Dependents customers.
 4. Targeted packages should be made for customers using Fibre Optic internet service.
 5. Customers should be incentivized to subscribe to support services.
 
