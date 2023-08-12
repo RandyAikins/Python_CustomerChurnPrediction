@@ -49,5 +49,26 @@ Necessary Python libraries are imported for data analysis, visualization, data p
 - TotalCharges: The total amount charged to the customer over the entire tenure. It represents the cumulative revenue generated from the customer and may have an impact on churn. 
 - Churn: The target variable indicates whether the customer has churned (canceled the service) or not. It is the main variable to predict in telecom customer churn analysis.
 
+### 2.3 Data Assessment and Wrangling
+- The dataset is assessed for its shape, information on the columns and datatypes, statistical description, duplicates, and null values
+- 11 rows with null values are dropped as they are very few and dropping them will not have any significant impact on the analysis and prediction
+- Data points with incorrect labels in 'No phone service' and 'No internet service' are replaced with 'No'
+
+![](https://github.com/RandyAikins/Python_CustomerChurnPrediction/assets/128720674/0b3b8f9d-ac0a-418f-bdeb-d8fad10f58fa)
+
+---
+## 3.0 Exploratory Data Analysis (EDA)
+In the EDA, the dataset is analyzed using univariate and bivariate techniques to identify patterns in customers' behavior and spending concerning churn. Some of the following were analyzed:
+- Distribution of customer tenure and churn rate
+- Distribution of monthly charges and how much is lost due to churn
+- Demographic distribution of customers and its impact on churn
+- Support services and their impact on churn
+- Payment methods and contracts and their impact on churn
+
+![](https://github.com/RandyAikins/Python_CustomerChurnPrediction/assets/128720674/c85e3416-5d46-4ee9-8c5f-c4cb74b08756)
+
+![](https://github.com/RandyAikins/Python_CustomerChurnPrediction/assets/128720674/9dd80c1b-2e63-4e81-9943-2ff442df4b35)
+
+---
 
 
