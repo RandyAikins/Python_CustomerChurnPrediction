@@ -92,7 +92,7 @@ The data is trained with selected algorithms via:
 - Fitting the algorithms on the training sets
 - Predicting results using the testing set
 
-![](https://github.com/RandyAikins/Python_CustomerChurnPrediction/assets/128720674/31dd68a5-a0a5-4b94-8bae-5e1c4455939d)
+![](https://github.com/RandyAikins/Python_CustomerChurnPrediction/assets/128720674/1d60a492-6f8e-437c-888d-4c3357b0e8da)
 
 ### 4.3 Model Evaluation
 The models built are evaluated using the following metrics:
@@ -121,8 +121,8 @@ Grid Search is used in adjusting the hyperparameters of the various algorithms t
 ### 4.5 Building and Evaluating Model using Naive Bayes (tuned hyperparameter)
 Upon tuning the hyperparameters of all algorithms, Naive Bayes gives the best possible recall score of 0.7761 and is therefore selected for the customer churn prediction model.
 
-![](https://github.com/RandyAikins/Python_CustomerChurnPrediction/assets/128720674/9ab38657-a1f5-49f3-b47e-981af2b61961)
-![](https://github.com/RandyAikins/Python_CustomerChurnPrediction/assets/128720674/a951d218-fe2b-4374-90ce-6fda439fcac1)
+![](https://github.com/RandyAikins/Python_CustomerChurnPrediction/assets/128720674/e9c5228b-3e1b-44af-91a9-883202c822b5)
+![](https://github.com/RandyAikins/Python_CustomerChurnPrediction/assets/128720674/f61123c9-16ab-43e5-8905-09c170ab88e0)
 
 The customer churn prediction system has a Recall_Score of 78%. That is out of every 5 churn customers the system can identify about 4 of them correctly.
 
