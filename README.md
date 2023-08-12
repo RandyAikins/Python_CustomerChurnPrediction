@@ -54,7 +54,7 @@ Necessary Python libraries are imported for data analysis, visualization, data p
 - 11 rows with null values are dropped as they are very few and dropping them will not have any significant impact on the analysis and prediction
 - Data points with incorrect labels in 'No phone service' and 'No internet service' are replaced with 'No'
 
-![](https://github.com/RandyAikins/Python_CustomerChurnPrediction/assets/128720674/0b3b8f9d-ac0a-418f-bdeb-d8fad10f58fa)
+![](https://github.com/RandyAikins/Python_CustomerChurnPrediction/assets/128720674/4957faa6-4ebb-4abe-b1a7-ec12247135cc)
 
 ---
 ## 3.0 Exploratory Data Analysis (EDA)
