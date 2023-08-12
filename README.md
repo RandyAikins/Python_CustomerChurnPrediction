@@ -21,7 +21,7 @@ To overcome this challenge, ConnectTel aims to develop a robust customer churn p
 ### 2.1 Import of Python Libraries
 Necessary Python libraries are imported for data analysis, visualization, data preprocessing, model building, and evaluation.
 
-![](https://github.com/RandyAikins/Python_CustomerChurnPrediction/assets/128720674/9b502a94-e947-4f03-ac78-dcb3a66d7baf)
+![](https://github.com/RandyAikins/Python_CustomerChurnPrediction/assets/128720674/f180a8f4-d529-4057-83d3-fb93fd0c7ee0)
 
 ### 2.2 Dataset Import and Dictionary
 
