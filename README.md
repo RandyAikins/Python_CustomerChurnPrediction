@@ -148,7 +148,6 @@ In this Project, I set out to understand the customer churn challenge of ConnecT
 8. Support Services: Customers who access support services like Online Security, Online Backup, Device Protection, and Tech Support experience lower churn rates compared to those without such services.
 
 ### 5.3 Retention Initiatives
----
 1. More customers should be tied to longer-term contracts.
 2. Customers should be incentivized to use automatic payment methods of bank transfer and credit card.
 3. Some packages should be developed along with customer demography to boost retention in SeniorCitizens, No Partner, and No Dependents customers.
