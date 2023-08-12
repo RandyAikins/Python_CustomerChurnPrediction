@@ -70,5 +70,87 @@ In the EDA, the dataset is analyzed using univariate and bivariate techniques to
 ![](https://github.com/RandyAikins/Python_CustomerChurnPrediction/assets/128720674/9dd80c1b-2e63-4e81-9943-2ff442df4b35)
 
 ---
+## 4.0 Machine Learning
+
+### 4.1 Data Preprocessing and Feature Engineering
+The data preprocessing and feature engineering involve:
+- Dropping the CustomerID feature
+- Encoding categorical features into numerical using One Hot Encoder for the nominal features and Label Encoder for the ordinal features
+- Segmenting the dataset into predictor variables (x) and target variable (y)
+- Standardized the x features using the StandardScaler from Scikit-Learn
+- Splitting the data into training and testing sets at a ratio of 0.7:0.3
+
+### 4.2 Model Selection and Training
+These 4 machine-learning algorithms are selected for the model building:
+- Logistic Regression
+- Naive Bayes
+- Random Forest
+- Support Vector Machines
+
+The data is trained with selected algorithms via:
+- Instantiating the algorithms
+- Fitting the algorithms on the training sets
+- Predicting results using the testing set
+
+![](https://github.com/RandyAikins/Python_CustomerChurnPrediction/assets/128720674/31dd68a5-a0a5-4b94-8bae-5e1c4455939d)
+
+### 4.3 Model Evaluation
+The models built are evaluated using the following metrics:
+- Recall Score: this is the primary evaluation metric as it measures the models' ability to identify churned customers correctly among actual churn
+- Precision Score: this is a secondary metric that measures the models' ability to identify churned customers (true positive) among positive predictions
+- F1 Score: this evaluation metric measures the harmony between the recall score and the precision score
+- Accuracy Score: this evaluation metric looks at the overall ability of the model to correctly identify actual churn (true positive) and actual no churn (true negatives)
+
+||LogisticRegression|NaiveBayes|RandomForest|SVM|
+|---|---|---|---|---|
+|Recall_Score|53.12%|73.44%|46.88%|46.88%|
+|Precision_Score|63.81%|53.44%|61.74%|64.78%|
+|F1_Score|57.98%|61.86%|53.29%|54.40%|
+|Accuracy_Score|79.53%|75.92%|78.15%|79.10%|
+
+### 4.4 Hyperparameters Tuning
+Grid Search is used in adjusting the hyperparameters of the various algorithms to optimize their performance on the dataset. The scoring metric in the grid search is Recall_Score; hence, the algorithm's hyperparameters with the best score are selected for the final model building.
+
+||best_score_|best_params_|
+|---|---|---|
+|LogisticRegression|0.6491368173810923|'C': 0.001, 'penalty': 'l2', 'solver': 'liblinear'|
+|NaiveBayes|0.7760657662947739|'var_smoothing': 1.0|
+|RandomForest|0.5314092777451556|6'max_depth': 10, 'n_estimators': 150|
+|SVM|0.5421374045801526|'C': 1, 'gamma': 'scale', 'kernel': 'linear'|
+
+### 4.5 Building and Evaluating Model using Naive Bayes (tuned hyperparameter)
+Upon tuning the hyperparameters of all algorithms, Naive Bayes gives the best possible recall score of 0.7761 and is therefore selected for the customer churn prediction model.
+
+![](https://github.com/RandyAikins/Python_CustomerChurnPrediction/assets/128720674/9ab38657-a1f5-49f3-b47e-981af2b61961)
+![](https://github.com/RandyAikins/Python_CustomerChurnPrediction/assets/128720674/a951d218-fe2b-4374-90ce-6fda439fcac1)
+
+The customer churn prediction system has a Recall_Score of 78%. That is out of every 5 churn customers the system can identify about 4 of them correctly.
+
+---
+
+## 5.0 Conclusion
+
+### 5.1 Task
+In this Project, I set out to understand the customer churn challenge of ConnecTel which is posing an existential threat to the business, and also build a robust customer churn prediction system. From this, the following questions are to be answered:
+- What are the trends in customers who are churning out of ConnectTel's business?
+- How much revenue is ConnectTel losing due to customer churn?
+- How best can churn be managed by leveraging machine learning tools to build a churn prediction system?
 
 
+### 5.2 Insights 
+1. Customer Churn Rate: ConnectTel has a churn rate of 26.6%, resulting in the loss of approximately 3 out of every 10 customers.
+2. Revenue Impact: Customer churn leads to a loss of around 1/3 of the monthly recurring revenue, which amounts to $139,130.85. Churn is more prevalent among high-paying customers than low-paying ones.
+3. Customer Tenure Distribution: The majority of ConnectTel's customers fall into two groups: very new and very old. Churn is higher among new customers compared to old customers.
+4. Contract Length: Customers with month-to-month contracts are around 8 times more likely to churn than those on longer-term contracts (1 year or 2 years).
+5. Payment Methods: Churn is higher among customers using Electronic Check for payment compared to other payment methods.
+6. Demographics: Gender has minimal impact on churn, with customers evenly distributed between genders. However, churn is proportionally higher among senior citizens. Churn is lower among partnered and dependent customers.
+7. Phone and Internet Services: Phone service has a minimal impact on churn, regardless of whether customers have it or not. In contrast, customers using Fibre Optic internet service exhibit a significantly high churn rate of over 70%, surpassing DSL and no internet service.
+8. Support Services: Customers who access support services like Online Security, Online Backup, Device Protection, and Tech Support experience lower churn rates compared to those without such services.
+
+### 5.3 Prediction System
+A robust customer churn prediction system has been developed for ConnectTel using the Naive Bayes algorithm with other machine learning techniques such as:
+- Data Preprocessing and Feature Engineering
+- Exploratory Data Analysis
+- Model building, Tunind, and Evaluation
+
+The churn prediction system has a recall score of **78%, that is it identifies approximately 4 of every 5 churning customers** which will help reduce churn and revenue loss.
