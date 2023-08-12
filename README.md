@@ -65,9 +65,9 @@ In the EDA, the dataset is analyzed using univariate and bivariate techniques to
 - Support services and their impact on churn
 - Payment methods and contracts and their impact on churn
 
-![](https://github.com/RandyAikins/Python_CustomerChurnPrediction/assets/128720674/c85e3416-5d46-4ee9-8c5f-c4cb74b08756)
-
-![](https://github.com/RandyAikins/Python_CustomerChurnPrediction/assets/128720674/9dd80c1b-2e63-4e81-9943-2ff442df4b35)
+![](https://github.com/RandyAikins/Python_CustomerChurnPrediction/assets/128720674/fd0e0b2f-ca46-4e4a-9a78-801807b790e4)
+![](https://github.com/RandyAikins/Python_CustomerChurnPrediction/assets/128720674/95c32945-5425-4883-807c-d08c03eba3bf)
+![](https://github.com/RandyAikins/Python_CustomerChurnPrediction/assets/128720674/8f0fe327-3286-447e-b430-934bf675f014)
 
 ---
 ## 4.0 Machine Learning
