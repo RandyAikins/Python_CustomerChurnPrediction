@@ -142,12 +142,20 @@ In this Project, I set out to understand the customer churn challenge of ConnecT
 2. Revenue Impact: Customer churn leads to a loss of around 1/3 of the monthly recurring revenue, which amounts to $139,130.85. Churn is more prevalent among high-paying customers than low-paying ones.
 3. Customer Tenure Distribution: The majority of ConnectTel's customers fall into two groups: very new and very old. Churn is higher among new customers compared to old customers.
 4. Contract Length: Customers with month-to-month contracts are around 8 times more likely to churn than those on longer-term contracts (1 year or 2 years).
-5. Payment Methods: Churn is higher among customers using Electronic Check for payment compared to other payment methods.
+5. Payment Methods: Churn is higher among customers using Electronic Check for payment compared to customers using automatic payment methods.
 6. Demographics: Gender has minimal impact on churn, with customers evenly distributed between genders. However, churn is proportionally higher among senior citizens. Churn is lower among partnered and dependent customers.
 7. Phone and Internet Services: Phone service has a minimal impact on churn, regardless of whether customers have it or not. In contrast, customers using Fibre Optic internet service exhibit a significantly high churn rate of over 70%, surpassing DSL and no internet service.
 8. Support Services: Customers who access support services like Online Security, Online Backup, Device Protection, and Tech Support experience lower churn rates compared to those without such services.
 
-### 5.3 Prediction System
+### 5.3 Retention Initiatives
+---
+1. More customers should be tied to longer-term contracts.
+2. Customers should be incentivized to use automatic payment methods of bank transfer and credit card.
+3. Some packages should be developed along with customer demography to boost retention in SeniorCitizens, No Partner, and No Dependents customers.
+4. Targeted packages should be made for customers using Fibre Optic internet service.
+5. Customers should be incentivized to subscribe to support services.
+
+### 5.4 Prediction System
 A robust customer churn prediction system has been developed for ConnectTel using the Naive Bayes algorithm with other machine learning techniques such as:
 - Data Preprocessing and Feature Engineering
 - Exploratory Data Analysis
