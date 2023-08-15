@@ -158,6 +158,6 @@ In this Project, I set out to understand the customer churn challenge of ConnecT
 A robust customer churn prediction system has been developed for ConnectTel using the Naive Bayes algorithm with other machine learning techniques such as:
 - Data Preprocessing and Feature Engineering
 - Exploratory Data Analysis
-- Model building, Tunind, and Evaluation
+- Model building, Tuning, and Evaluation
 
 The churn prediction system has a recall score of **78%, that is it identifies approximately 4 of every 5 churning customers** which will help reduce churn and revenue loss.
