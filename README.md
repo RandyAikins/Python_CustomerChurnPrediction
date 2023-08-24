@@ -109,7 +109,7 @@ The models built are evaluated using the following metrics:
 |Accuracy_Score|79.53%|75.92%|78.15%|79.10%|
 
 ### 4.4 Hyperparameters Tuning
-Grid Search is used in adjusting the hyperparameters of the various algorithms to optimize their performance on the dataset. The scoring metric in the grid search is Recall_Score; hence, the algorithm's hyperparameters with the best score are selected for the final model building.
+GridSearchCV is used in adjusting the hyperparameters of the various algorithms to optimize their performance on the dataset. The scoring metric in the grid search is Recall_Score; hence, the algorithm's hyperparameters with the best score are selected for the final model building.
 
 ||best_score_|best_params_|
 |---|---|---|
