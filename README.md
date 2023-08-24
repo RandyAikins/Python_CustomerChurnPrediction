@@ -131,7 +131,7 @@ The customer churn prediction system has a Recall_Score of 78%. That is out of e
 ## 5.0 Conclusion
 
 ### 5.1 Task
-In this Project, I set out to understand the customer churn challenge of ConnecTel which is posing an existential threat to the business, and also build a robust customer churn prediction system. From this, the following questions are to be answered:
+In this Project, I set out to understand the customer churn challenge of ConnecTel which is posing an existential threat to the business, and also build a robust customer churn prediction system. From this, the following questions were to be answered:
 - What are the trends in customers who are churning out of ConnectTel's business?
 - How much revenue is ConnectTel losing due to customer churn?
 - How best can churn be managed by leveraging machine learning tools to build a churn prediction system?
